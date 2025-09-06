@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.screen{
+    display: flex;
+}
+.rules{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 20px;
+    padding: 30px;
+
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 10%;
+    margin: 20px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.pink{
+    background-color: rgb(199, 13, 44);
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.blue{
+    background-color: blue;
+}
+
+.flash{
+    background-color: black;
+}
+.userFlash{
+    background-color: rgb(77, 235, 77);
+}
+
